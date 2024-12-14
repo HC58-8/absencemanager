@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "838707333106",
+    "project_id": "absencemanager-e1918",
+    "storage_bucket": "absencemanager-e1918.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:838707333106:android:48a9bf12102f00430fcd6b",
+        "android_client_info": {
+          "package_name": "com.example.mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSUkvhyFGwjdevsRuG28lYd1DGN34qzuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

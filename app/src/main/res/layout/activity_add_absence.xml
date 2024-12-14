@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Affichage du nom de l'agent connecté    metter le nom de agent connecter -->
+    <TextView
+        android:id="@+id/agentNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nom de l'agent :"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:paddingBottom="8dp" />
+
+    <!-- Champ pour la date -->
+    <EditText
+        android:id="@+id/dateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:inputType="date" />
+
+    <!-- Champ pour l'heure -->
+    <EditText
+        android:id="@+id/heureEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Heure"
+        android:inputType="time" />
+
+
+    <!-- Champ pour la classe -->
+    <EditText
+        android:id="@+id/classeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Classe"
+        android:inputType="text" />
+
+    <!-- Champ pour le nom de l'enseignant              -->
+    <AutoCompleteTextView
+        android:id="@+id/nomEnseignantEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom Enseignant"
+        android:inputType="text"
+        android:dropDownHeight="wrap_content"
+        android:completionThreshold="1" /> <!-- Le seuil à partir duquel la recherche commence -->
+
+    <!-- Bouton pour ajouter l'absence -->
+    <Button
+        android:id="@+id/addAbsenceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajouter Absence" />
+
+    <!-- Bouton pour naviguer vers la liste des absences -->
+    <Button
+        android:id="@+id/viewAbsencesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voir la liste des absences"
+        android:layout_marginTop="16dp" />
+    <!-- Bouton pour naviguer pour Importer un emploi du temps (depuis un fichier Excel ou PDF).
+ -->
+
+
+</LinearLayout>

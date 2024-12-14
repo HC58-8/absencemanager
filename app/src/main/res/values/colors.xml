@@ -1,0 +1,12 @@
+<resources>
+    <!-- Couleurs de l'application -->
+    <color name="colorPrimary">#03A9F4</color> <!-- Couleur principale -->
+    <color name="colorPrimaryDark">#00B31B</color> <!-- Couleur sombre -->
+    <color name="colorAccent">#03DAC5</color> <!-- Couleur d'accentuation -->
+    <color name="textColor">#000000</color> <!-- Couleur du texte -->
+    <color name="buttonTextColor">#FFFFFF</color> <!-- Couleur du texte du bouton -->
+    <color name="buttonBackgroundColor">#2CEE00</color> <!-- Couleur de fond pour le bouton -->
+    <color name="googleButtonColor">#4285F4</color> <!-- Couleur de Google bleu -->
+
+    <color name="backgroundColor">#FFFFFF</color> <!-- Couleur de fond -->
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Firebase Auth App</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="logout">Logout</string>
+    <string name="nom">Nom</string>
+    <string name="default_web_client_id">838707333106-sprllb05484pck8j2jqgh8vmift3515s.apps.googleusercontent.com</string>
+
+</resources>

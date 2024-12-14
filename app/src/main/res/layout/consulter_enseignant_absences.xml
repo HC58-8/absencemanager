@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Titre de la page -->
+    <TextView
+        android:id="@+id/enseignantTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consulter vos Absences"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="8dp"/>
+
+    <!-- Nom de l'enseignant -->
+    <TextView
+        android:id="@+id/enseignantName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nom de l'enseignant : [Nom]"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:paddingBottom="8dp"/>
+
+    <!-- RecyclerView pour afficher les absences -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/absencesRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical"
+        android:paddingTop="8dp"/>
+
+</LinearLayout>
